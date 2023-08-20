@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+  background-color: whitesmoke;
+}
+header{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.nav{
+    display: inline-flex;
+    width: 100%;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    padding: 0 14px;
+}
+.app-link {
+    padding-top: 10px;
+}
+
+.top-nav li{
+
+    list-style-type: none;
+}
+
+.top-nav a:hover {
+    color: #FFC915;
+}
+
+.top-nav{
+    display: flex;
+   
+}
+.logo{
+    width: 20%;
+    text-align: center;
+    padding: 15px;
+}
+.logo img{
+    width: 100px;
+
+}
+.menu{
+    padding: 15px;
+    padding-left: 85px;
+}
+.menu ul{
+    display: inline-flex;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 45px;
+    color: black;
+    font-weight: lighter;
+}
+.menu ul li a:hover{
+    color: orange;
+}
+
+
+/* Body section  */
+
+
+.box{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 50px;
+    gap: 20px;
+}
+.bone{
+    text-align: center;
+    line-height: normal;
+    padding: 30px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 14px rgb(228, 218, 218);
+    
+}
+
+.bone img{
+    width: 180px;
+}
+.bone a{
+    text-decoration: none;
+}
+.bone a,img:hover{
+    transform: scale(1.04)
+}
+.bone p{
+    font-size: 18px;
+    line-height: 1.3;
+    margin-top: 20px;
+}
+.bonered{
+    color: red;
+}
+.no-content{
+    border: none;
+    box-shadow: none;
+    background-color: none;
+}
+
+
+
+
+
+
+
+
+/* This is the footer section  */
+
+.footer{
+    display: inline-flex;
+    padding: 30px;
+    width: 100%;
+    background-color: white;
+}
+
+.one{
+    width: 20%;
+}
+.one li{
+    list-style: none;
+
+}
+.one li a{
+    text-decoration: none;
+    padding-left: 50px;
+    color: black;
+    line-height: 1.8;
+    font-size: 14px;
+}
+.one li a:hover{
+    color: orange;
+}
+
+.two{
+    width: 20%;
+}
+.two li{
+    list-style: none;
+
+}
+.two li a{
+    text-decoration: none;
+    padding-left: 50px;
+    color: black;
+    line-height: 1.8;
+    font-size: 14px;
+}
+.two li a:hover{
+    color: orange;
+}
+.three{
+    width: 20%;
+}
+.three li{
+    list-style: none;
+
+}
+.three li a{
+    text-decoration: none;
+    padding-left: 50px;
+    color: black;
+    line-height: 1.8;
+    font-size: 14px;
+}
+.three li a:hover{
+    color: orange;
+}
+.four{
+    width: 20%;
+}
+.four li{
+    list-style: none;
+
+}
+.four li a{
+    text-decoration: none;
+    padding-left: 50px;
+    color: black;
+    line-height: 1.8;
+    font-size: 14px;
+}
+.four li a:hover{
+    color: orange;
+}
+.five{
+    width: 20%;
+}
+.five li{
+    list-style: none;
+    text-align: center;
+}
+.five li a{
+    text-decoration: none;
+    padding-left: 50px;
+    color: black;
+    line-height: 1.8;
+    text-align: center;
+    font-size: 14px;
+    font-size: 14px;
+}
+.five li a:hover{
+    color: orange;
+}
+.fh{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+.smart-diveces-section {
+    background-color: #f5f5f5;
+    max-width: 1180px;
+    height: 95vh;
+    margin: auto;
+    padding: 1.5rem;
+  }
+  
+  .this-header {
+    margin-bottom: 1.5rem;
+  }
+  
+  .smart-diveces-row img {
+    width: 200px;
+  }
+  
+  .smart-diveces-row {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+  }
+  
+  .watch, .camera {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #fff;
+    padding: 3rem 1.5rem;
+    border-radius: 15px;
+    height: 39vh;
+    /* width: 50%; */
+  
+  }
+  
+  .smart-diveces-row h3 {
+    font-size: 23px;
+    color: #000;
+    line-height: 30px;
+    line-height: 31px;
+  }
+  
+  .smart-diveces-row p {
+    color: #7e7e7e;
+    margin-bottom: 8rem;
+  }
+  
+  .smart-diveces-row span {
+    color: #e6462e;
+    font-weight: 700;
+  }
+  
+  
+  
+  .accessories-section {
+    background-color: #f5f5f5;
+    max-width: 1180px;
+    height: 135vh;
+    margin: auto;
+    padding: 1.5rem;
+  }
+  
+  .accessories-menu-row {
+    overflow: hidden;
+  }
+  
+  .accessories-header {
+    float: left;
+  }
+  
+  .accessories-menu-items {
+    float: right;
+    
+  }
+  
+  
+  .items-container {
+    margin-bottom: 1.5rem;
+  }
+  
+  .accessories-section .accessories-menu-items ul li {
+    display: inline-block;
+    padding-top: 6px;
+    padding-left: 3rem;
+  }
+  
+  .accessories-section .accessories-menu-items ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+  
+  }
+  
+  .accessories-section .accessories-menu-items ul li a:hover {
+    font-weight: 500;
+  }
+  
+  .accessories-product-row img {
+    width: 200px;
+  }
+  
+  .accessories-product-row {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+  }
+  
+  .earphn-one, .earphn-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #fff;
+    padding: 3rem 1.5rem;
+    border-radius: 15px;
+    height: 39vh;
+    /* width: 50%; */
+  
+  }
+  
+  .accessories-product-row h3 {
+    font-size: 23px;
+    color: #000;
+    line-height: 30px;
+    line-height: 31px;
+  }
+  
+  .accessories-product-row p {
+    color: #7e7e7e;
+    margin-bottom: 8rem;
+  }
+  
+  .accessories-product-row span {
+    color: #e6462e;
+    font-weight: 700;
+  }
+  
+  .footer-section {
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #Fff;
+    padding: 8rem 4rem;
+  }
+  
+  
+  .team-prime-section {
+    background-color: #f5f5f5;
+    max-width: 1180px;
+    height: 52vh;
+    margin: auto;
+    padding: 1.5rem;
+  }
+  
+  .teamup {
+    height: 40vh;
+    border-radius: 15px;
+  }
+  
+  .teamup img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  
+  .realme-prime img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  
+  .realme-prime {
+    height: 40vh;
+    border-radius: 15px;
+  }
+  
+  .team-prime-row {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+  }
+  .team-prime-row img:hover{
+
+    transform: scale(1.04) !important;
+  }
